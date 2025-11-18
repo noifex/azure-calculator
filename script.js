@@ -82,6 +82,12 @@ function deleteNum() {
     updateDisplay();
 }
 
+function percent() {
+    if (currentOperand === '') return;
+    currentOperand = (parseFloat(currentOperand) / 100).toString();
+    updateDisplay();
+}
+
 // Keyboard support
 document.addEventListener('keydown', function(event) {
     if (event.key >= '0' && event.key <= '9') {

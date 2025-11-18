@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #0078d4 0%, #00bcf2 100%);
+    background: linear-gradient(135deg, #b9cedf 0%, #b2c2c6 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -77,12 +77,12 @@ body {
 }
 
 .btn-operator {
-    background: #0078d4;
+    background: #ff9500;
     color: white;
 }
 
 .btn-operator:hover {
-    background: #106ebe;
+    background: #cc7700;
 }
 
 .btn-clear {
@@ -102,12 +102,12 @@ body {
 }
 
 .btn-equals {
-    background: #00bcf2;
-    grid-column: span 2;
+    background: #ff9500;
+    color: white;
 }
 
 .btn-equals:hover {
-    background: #00a0d2;
+    background: #cc7700;
 }
 
 .btn-zero {
